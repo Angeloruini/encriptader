@@ -1,0 +1,127 @@
+/*Paleta de colores: #698694
+                     #E09FA8
+                     #B6D3E0
+                     #E0DE9F
+                     #949270
+*/
+
+body{
+    background-color: #698694;
+}
+
+.navbar{
+    background-color: #e0de9f;
+    height: 12vh;
+    margin-top: 1vh;
+    padding-bottom: 2rem;
+}
+
+a .logo_alura{
+    display: inline-block;
+    height: 6vh;
+    position: relative;
+    left: 6vw;
+    top: 4.5vh;
+}
+
+h1{
+    position: relative;
+    bottom: 3vh;
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    margin: 1% 40%;
+    width: 40%;
+    color: #949270;
+}
+
+.candado_logo{
+    height: 200%;
+    position: relative;
+    bottom: 12rem;
+    left : 88rem;
+    
+}
+
+main{
+    display: flex;
+    padding: 4% 9% 0;
+}
+
+section{
+    
+    margin: 0 9%;
+    background-color: chartreuse;
+    border-radius: 15px;
+    
+}
+
+.textInput, .encriptedMsg{
+    margin: 6rem;
+    border: 1rem solid black;
+    border-radius: 15px;   
+}
+
+.textInput textarea, .encriptedMsg textarea{
+    background-color: white;
+    vertical-align: bottom;
+    font-family: 'Righteous', cursive;
+    font-size: xx-large;
+    color: black/*antiquewhite*/;
+    border: none;
+    outline: none;
+}
+
+.encriptedMsg textarea{
+    background: url("imagenes/lock.jpg") no-repeat, white /*#E09FA8*/;
+    background-size: 100%;
+    background-position: center;
+}
+
+.buttons{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: darkslategray;
+    margin: 1rem;
+    padding: 1rem 3rem;
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+    font-family: 'Righteous', cursive;
+    font-size: large;
+    color: springgreen;
+}
+
+button img{
+    height: 5vh;
+}
+
+.social{
+    display: inline-block;
+    bottom: 50vh;
+}
+
+.social .linkedin{
+    margin-left: 33vw;
+}
+
+.linkedin, .github{
+    /*background-color: #E0DE9F;
+    border: 1px solid #E0DE9F;*/
+    border-radius: 50%;
+    padding: 21px
+}
+
+footer{
+    height: 1px;
+}
+
+footer p{
+    display: inline-block;
+    bottom: 9vh;
+    color: black;
+    font-family:'Righteous', cursive;
+    position: relative;
+    left: 50vw;
+}

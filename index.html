@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <head>
+        <div class="navbar">
+            <a href="https://app.aluracursos.com/dashboard" target="_blank"><img class="logo_alura" src="imagenes/Vector.png" alt=""></a>
+            <h1>Angeloruini Secret</h1>
+            <img class="candado_logo" src="imagenes/lock_logo.png" alt="">
+        </div>       
+    </head>
+
+    <main>
+
+        <section>
+
+            <article class="textInput">
+    
+                <textarea class="texto" name="" id="" cols="21" rows="10"></textarea>
+    
+            </article>
+    
+            <article class="buttons">
+    
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+    
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+    
+            </article>
+    
+        </section>
+    
+        <section>
+    
+            <article class="encriptedMsg">
+    
+                <textarea class="mensaje" name="" id="" cols="18" rows="10"></textarea>
+    
+            </article>
+    
+            <article class="buttons">
+    
+                <button class="copiar" onclick="copiar()">Copiar</button>
+    
+            </article>
+    
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <p>Angel Alexander Rua - 2022</p>
+
+        <div class="social">
+            <button class="linkedin"><a href="https://linkedin.com/in/angel-alexander-rua-roldan-358b3557" target="_blank"><img src="imagenes/linkedin.jpg" alt=""></a></button>           
+        </div>
+
+        <div class="social">
+            <button class="github"><a href="https://github.com/Angeloruini" target="_blank"><img src="imagenes/github.png" alt=""></a></button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
